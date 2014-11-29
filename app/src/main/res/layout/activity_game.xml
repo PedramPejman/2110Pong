@@ -26,5 +26,14 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/ball"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:text="Score: 0"
+        android:id="@+id/score"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
